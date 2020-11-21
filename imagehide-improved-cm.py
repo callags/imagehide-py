@@ -198,7 +198,6 @@ def retr(filename, pixel_choice, retrieve):
                         with open(filename, "w") as out:
                             for line in file_content:
                                 print(line, file=out)
-                        #sys.exit(0)
                         return "\nSuccess!\n"
                        
                         
